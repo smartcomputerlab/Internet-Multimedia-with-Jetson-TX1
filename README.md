@@ -1,1 +1,1 @@
-SmartComputerLab depository contains the preparations and codes for your IoT and AIOT projects
+This repository contains the text preparation for the module Internet & Multimedia as weel as the codes and media files necessary to carry out the laboratories.
