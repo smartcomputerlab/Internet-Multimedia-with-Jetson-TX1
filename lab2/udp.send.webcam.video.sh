@@ -1,3 +1,5 @@
-gst-launch-1.0 -v v4l2src device="/dev/video1" ! 'video/x-raw, width=320, height=240, framerate=30/1' ! queue ! videorate ! 'video/x-raw,framerate=30/1' ! jpegenc quality=50 ! udpsink host=192.168.1.72 port=5005
+source config.sh
+gst-launch-1.0 -v v4l2src device="/dev/video1" ! queue ! 'image/jpeg, width=1280, height=720, framerate=30/1' ! queue ! udpsink host=192.168.1.62 port=9005
+
 
 

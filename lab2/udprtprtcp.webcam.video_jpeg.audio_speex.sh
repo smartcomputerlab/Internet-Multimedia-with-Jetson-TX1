@@ -7,7 +7,7 @@ PORT_RTCP_VIDEO_RET=5005
 PORT_RTCP_AUDIO_RET=5007
 
 gst-launch-1.0 rtpbin name=rtpbin \
-v4l2src device=/dev/video1 ! video/x-h264, width=1920, height=1080, framerate=30/1 ! rtph264pay ! rtpbin.send_rtp_sink_0 \
+v4l2src device=/dev/video1 ! image/jpeg, width=640, height=480, framerate=30/1 ! rtpjpegpay ! rtpbin.send_rtp_sink_0 \
 rtpbin.send_rtp_src_0 ! udpsink host=192.168.1.27 port=$PORT_RTP_VIDEO \
 rtpbin.send_rtcp_src_0 ! udpsink host=192.168.1.27 port=$PORT_RTCP_VIDEO \
 sync=false async=false \
