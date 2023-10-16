@@ -1,10 +1,10 @@
 # Introduction
-This repository contains the text preparation for the module Internet & Multimedia as well as the codes and media files necessary to carry out the laboratories.
+This repository contains the text preparation for the module **Internet & Multimedia** as well as the codes and media files necessary to carry out the laboratories.
 The main aim of these laboratories is the understanding of Internet Protocols used to carry the multimedia content. In some cases this kind of operation is called "streaming".
-The essential Internet Protocols such as : IP, TC, and UDP do not provide any information about the timing. That is why to correctly send/receive the multimedia content we need an additional protocol called RTP, Real Time Protocol. RTP carries time markers and the sequence numbers related to the data packets (media frames).
+The essential Internet Protocols such as : IP, TC, and UDP do not provide any information about the timing. That is why to correctly send/receive the multimedia content we need an additional protocol called **RTP, Real Time Protocol**. RTP carries time markers and the sequence numbers related to the data packets (media frames).
 
 # Hardware
-We are going to work with the last generation of ARM based SBC boards built around RK3588 SoC. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON
+We are going to work with the last generation of **ARM** based SBC boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON
 coprocessor.
 
 Many embedded powerful hardware engines provide optimized performance for high-end application. RK3588 supports H.265 and VP9 decoder by 8K@60fps, H.264 decoder by
