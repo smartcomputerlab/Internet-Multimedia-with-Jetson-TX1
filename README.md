@@ -20,7 +20,8 @@ The **build-in NPU** supports INT4/INT8/INT16/FP16 hybrid operation and computin
 
 In addition, with its strong compatibility, network models based on a series of frameworks such as **TensorFlow/MXNet/PyTorch/Caffe** can be easily converted into the internal models.
 
-We provide our students with several kinds of RK3588 based boards including, **Radxa Rock Pi 5 (B and A)**, **Orange Pi 5**, etc
+We provide our students with several kinds of RK3588 based boards including, **Radxa Rock Pi 5 (B and A)**, **Orange Pi 5**, etc.
+
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/ROCK5-Top_600x600.png">
 </picture>
