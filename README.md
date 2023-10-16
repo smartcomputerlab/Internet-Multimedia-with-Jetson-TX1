@@ -4,8 +4,7 @@ The main aim of these laboratories is the understanding of Internet Protocols us
 The essential Internet Protocols such as : IP, TC, and UDP do not provide any information about the timing. That is why to correctly send/receive the multimedia content we need an additional protocol called **RTP, Real Time Protocol**. RTP carries time markers and the sequence numbers related to the data packets (media frames).
 
 # Hardware
-We are going to work with the last generation of **ARM** based SBC boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON
-coprocessor.
+We are going to work with the last generation of **ARM** based SBC boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON coprocessor.
 
 Many embedded powerful hardware engines provide optimized performance for high-end application. RK3588 supports H.265 and VP9 decoder by 8K@60fps, H.264 decoder by
 8K@30fps, and AV1 decoder by 4K@60fps, also support H.264 and H.265 encoder by 8K@30fps, high-quality JPEG encoder/decoder, specialized image preprocessor and
@@ -22,6 +21,12 @@ The **build-in NPU** supports INT4/INT8/INT16/FP16 hybrid operation and computin
 In addition, with its strong compatibility, network models based on a series of frameworks such as **TensorFlow/MXNet/PyTorch/Caffe** can be easily converted into the internal models.
 
 We provide our students with several kinds of RK3588 based boards including, **Radxa Rock Pi 5 (B and A)**, **Orange Pi 5**, etc
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/ROCK5-Top_600x600.png">
+</picture>
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/Orange_Pi_5.jpg">
+</picture>
 
 # Laboratories
 Our laboratories (**Lab0**) start with the exercises exploiting **UDP** and **TCP** protocols used to send/receive text messages and files; including multimedia files.
