@@ -37,7 +37,7 @@ This laboratory is completed by the Computer Network lectures provided by David 
 
 Go to the link: (http:http://www.smartcomputerlab.org/), then ask for the **user and pass codes** to enter the site.
 
-The second laboratory **Lab1** introduces the basic functions Gstreamer allowing us to capture the audio/video content and to reproduce it on the speaker/display devices.
+The second laboratory **Lab1** introduces the basic functions **Gstreamer** allowing us to capture the audio/video content and to reproduce it on the speaker/display devices.
 
 
 **Lab2** and **Lab3** are dedicated to the streaming with **UDP/RTP** and **UDP/RTP/RTCP**.
