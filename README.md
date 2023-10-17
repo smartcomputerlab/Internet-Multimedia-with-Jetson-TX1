@@ -29,10 +29,6 @@ We provide our students with several kinds of RK3588 based boards including, **R
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/ROCK5-Top_600x600.png">
 </picture>
-<picture>
- <img alt="YOUR-ALT-TEXT" src="images/Orange_Pi_5.jpg">
-</picture>
-
 
 
 # Laboratories
