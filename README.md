@@ -4,7 +4,7 @@ The main aim of these laboratories is the understanding of Internet Protocols us
 The essential Internet Protocols such as : IP, TC, and UDP do not provide any information about the timing. That is why to correctly send/receive the multimedia content we need an additional protocol called **RTP, Real Time Protocol**. RTP carries time markers and the sequence numbers related to the data packets (media frames).
 
 # Hardware
-We are going to work with the last generation of **ARM** based SBC boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON coprocessor.
+We are going to work with the last generation of **ARM** based **SBC** boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON coprocessor.
 <picture>
  <img alt="YOUR-ALT-TEXT" src="images/RK3588.png">
 </picture>
