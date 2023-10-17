@@ -35,6 +35,8 @@ We provide our students with several kinds of RK3588 based boards including, **R
 Our laboratories (**Lab0**) start with the exercises exploiting **UDP** and **TCP** protocols used to send/receive text messages and files; including multimedia files.
 This laboratory is completed by the Computer Network lectures provided by David Wetherhall from University of Washington. The visioning of these lectures is highly recomemded  to our students.
 
+The link: (http:http://www.smartcomputerlab.org/)
+
 The second laboratory **Lab1** introduces the basic functions Gstreamer allowing us to capture the audio/video content and to reproduce it on the speaker/display devices.
 
 
