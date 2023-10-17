@@ -5,6 +5,10 @@ The essential Internet Protocols such as : IP, TC, and UDP do not provide any in
 
 # Hardware
 We are going to work with the last generation of **ARM** based SBC boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON coprocessor.
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/RK3588.png">
+</picture>
+
 
 Many embedded powerful hardware engines provide optimized performance for high-end application. RK3588 supports H.265 and VP9 decoder by 8K@60fps, H.264 decoder by
 8K@30fps, and AV1 decoder by 4K@60fps, also support H.264 and H.265 encoder by 8K@30fps, high-quality JPEG encoder/decoder, specialized image preprocessor and
