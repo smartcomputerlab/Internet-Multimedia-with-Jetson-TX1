@@ -48,6 +48,10 @@ The second laboratory **Lab1** introduces the basic functions **Gstreamer** allo
 Last two laboratories are prepared for the evaluation of the module.The students have to choose between **Lab4** and **Lab5** to prepare short report.
 In **Lab5** we build complete STT-TTS architecture with the prepared components and provided **AI models**.
 
+<picture>
+ <img alt="YOUR-ALT-TEXT" src="images/IandM.Lab5.AI.whisper.piper.png">
+</picture>
+
 
 
 
