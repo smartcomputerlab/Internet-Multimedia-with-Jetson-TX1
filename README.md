@@ -1,7 +1,8 @@
 # Introduction
-This repository contains the text preparation for the module **Internet & Multimedia** as well as the codes and media files necessary to carry out the laboratories.
-The main aim of these laboratories is the understanding of Internet Protocols used to carry the multimedia content. In some cases this kind of operation is called "streaming".
-The essential Internet Protocols such as : IP, TC, and UDP do not provide any information about the timing. That is why to correctly send/receive the multimedia content we need an additional protocol called **RTP, Real Time Protocol**. RTP carries time markers and the sequence numbers related to the data packets (media frames).
+This repository contains the text preparation for the module **Internet & Multimedi & AI** as well as the codes and media files necessary to carry out the laboratories. The IA models must be loaded separately. By default they are pre-loaded on our boirds.
+The main aim of these laboratories is the understanding of Internet Protocols used to carry the multimedia content and new AI appliocations transforming speec to text and text to speech. In some cases this kind of operation is called "streaming".
+The essential Internet Protocols such as : IP, TC, and UDP do not provide any information about the timing. That is why to correctly send/receive the multimedia content we need an additional protocol called **RTP, Real Time Protocol**. RTP carries time markers and the sequence numbers related to the data packets (media frames). In case of transformed **Speech-To-Text** we just use UDP packets to send/receive text messages. These text message are transformed into speech at the receiving node.
+In Lab4 we propose to use **ChatGPT** to generate the GStreamer pipelines for a number of examples. The generated pipelis are adapted to run our platform.
 
 # Hardware
 We are going to work with the last generation of **ARM** based **SBC** boards built around **RK3588 SoC**. RK3588 is a low power, high performance processor for ARM-based PC and Edge Computing device, personal mobile internet device and other digital multimedia applications, and integrates quad-core Cortex-A76 and quad-core Cortex-A55 with separately NEON coprocessor.
@@ -42,6 +43,12 @@ The second laboratory **Lab1** introduces the basic functions **Gstreamer** allo
 *GStreamer is a library for constructing graphs of media-handling components. The applications it supports range from simple Ogg/Vorbis playback, audio/video streaming to complex audio (mixing) and video (non-linear editing) processing.* 
 
 **Lab2** and **Lab3** are dedicated to the streaming with **UDP/RTP** and **UDP/RTP/RTCP**.
+
+# Laboratories with AI : ChatGPT and whisper/piper STT-TTS
+Last two laboratories are prepared for the evaluation of the module.The students have to choose between **Lab4** and **Lab5** to prepare short report.
+In **Lab5** we build complete STT-TTS architecture with the prepared components and provided **AI models**.
+
+
 
 
 
