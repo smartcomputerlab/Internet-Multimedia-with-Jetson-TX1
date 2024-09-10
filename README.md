@@ -10,6 +10,12 @@ We are going to work with the last generation of **ARM** based **SBC** boards bu
  <img alt="YOUR-ALT-TEXT" src="images/RK3588.png">
 </picture>
 
+## Attention
+For the boards with fan it is necessary to activate the driver:
+dpkg -i fan-control*.deb
+sudo systemctl enable fan-control
+sudo systemctl start fan-control
+
 
 Many embedded powerful hardware engines provide optimized performance for high-end application. RK3588 supports H.265 and VP9 decoder by 8K@60fps, H.264 decoder by
 8K@30fps, and AV1 decoder by 4K@60fps, also support H.264 and H.265 encoder by 8K@30fps, high-quality JPEG encoder/decoder, specialized image preprocessor and
