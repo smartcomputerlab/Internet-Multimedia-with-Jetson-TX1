@@ -12,9 +12,13 @@ We are going to work with the last generation of **ARM** based **SBC** boards bu
 
 ## Attention
 For the boards with fan it is necessary to activate the driver:
+
 dpkg -i fan-control*.deb
+
 sudo systemctl enable fan-control
+
 sudo systemctl start fan-control
+
 
 
 Many embedded powerful hardware engines provide optimized performance for high-end application. RK3588 supports H.265 and VP9 decoder by 8K@60fps, H.264 decoder by
